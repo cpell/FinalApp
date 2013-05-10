@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">FinalApp</string>
+    <string name="app_name">Yummly Viewer</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_search">Recipe Search</string>
+    <string name="title_activity_view_recipe">View Recipe</string>
+    <string name="title_activity_fullscreen_image">View Image</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_web_viewer">View Full Recipe</string>
+    <string name="title_activity_full_image">Full Image</string>
 
 </resources>

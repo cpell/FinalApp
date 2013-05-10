@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.finalapp"
+    package="com.cpellizzi.yummlyviewer"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.finalapp.MainActivity"
+            android:name="com.cpellizzi.yummlyviewer.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,11 +23,31 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.finalapp.SearchActivity"
+            android:name="com.cpellizzi.yummlyviewer.SearchActivity"
+            android:configChanges="orientation"
             android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="com.cpellizzi.yummlyviewer.ViewRecipe"
+            android:label="@string/title_activity_view_recipe" >
+        </activity>
+        <activity
+            android:name="com.cpellizzi.yummlyviewer.FullscreenImage"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen_image"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="com.cpellizzi.yummlyviewer.WebViewer"
+            android:label="@string/title_activity_web_viewer" >
+        </activity>
+        <activity
+            android:name="com.cpellizzi.yummlyviewer.FullImage"
+            android:label="@string/title_activity_full_image" >
         </activity>
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
 </manifest>
